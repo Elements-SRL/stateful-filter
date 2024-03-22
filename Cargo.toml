@@ -1,0 +1,17 @@
+[package]
+name = "stateful_filter"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "stateful_filter"
+path = "src/lib.rs"
+#crate-type = ["staticlib"]
+
+[[bin]]
+name = "stateful_filter"
+path = "src/main.rs"
+
+[dependencies]
+plotly = "0.8.4"
+rayon = "1.9.0"
